@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const fechaGestion = document.getElementById("fecha-gestion");
     const aplicaA = document.getElementById("aplica-a");
 
-    // Datos iniciales para dos riesgos
     const riesgosIniciales = [
         {
             id: 1,
