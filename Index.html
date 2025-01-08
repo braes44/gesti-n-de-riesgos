@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Riesgos </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo-gestion" contenteditable="true">Análisis de Riesgos </h1>
+        <div id="informacion-general">
+            <p><strong>Nombre del Analista:</strong> <span id="nombre-analista" contenteditable="true">[Ingrese el nombre]</span></p>
+            <p><strong>Fecha:</strong> <span id="fecha-gestion" contenteditable="true">[Ingrese la fecha]</span></p>
+            <p><strong>Aplica a:</strong> <span id="aplica-a" contenteditable="true">[Ingrese la aplicación]</span></p>
+        </div>
+    </header>
+
+    <main>
+        <section id="tabla-riesgos">
+            <h2>Formulario de Análisis de Riesgos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Descripción del Riesgo</th>
+                        <th>Controles Actuales</th>
+                        <th>Detectabilidad</th>
+                        <th>Ocurrencia</th>
+                        <th>Severidad</th>
+                        <th>Nivel de Riesgo</th>
+                        <th>Clasificación</th>
+                        <th>Controles Recomendados</th>
+                        <th>Código Control</th>
+                        <th>Responsables</th>
+                        <th>Fecha Implementación</th>
+                        <th>Evidencia</th>
+                        <th>Detectabilidad Post</th>
+                        <th>Ocurrencia Post</th>
+                        <th>Severidad Post</th>
+                        <th>Nivel de Riesgo Post</th>
+                        <th>Prioridad</th>
+                    </tr>
+                </thead>
+                <tbody id="riesgos-body">
+                    <!-- Riesgos se generarán dinámicamente aquí -->
+                </tbody>
+            </table>
+        </section>
+
+        <button id="btn-agregar-riesgo">Agregar Riesgo</button>
+        <button id="btn-guardar">Guardar Datos</button>
+        <button id="btn-imprimir">Imprimir PDF</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
